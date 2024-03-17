@@ -1,0 +1,11 @@
+h1 {
+    color: orange !important;
+}
+
+/* Proerties and values */
+/* List property */
+ul {
+    list-style: square;
+    /*list-style: circle inside ul("./mini_emoji.png"); */
+        }
+/*Font  property
