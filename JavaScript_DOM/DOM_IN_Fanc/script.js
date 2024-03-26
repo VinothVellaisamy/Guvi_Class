@@ -42,3 +42,23 @@ getBtn.addEventListener("click", () => {
   };
   console.log(userData);
 });
+
+//MOUSE EVENTS (MOUSEDOWN, MOUSELEAVE, MOUSEUP)
+document.addEventListener("mouseover", (e) => {
+  console.log("mouse hovered", e);
+  });
+
+  //key events (keypress, keydown, keyup)
+  document.addEventListener("keydown", (e) => {
+    console.log("key trggerd =", e.key);
+  });
+
+  //form events ("submit", "input", "change")
+  const myForm = document.querySelector("form");
+  myForm.addEventListener("change", (e) => {
+    e.preventDefault();
+    console.log(e.target);
+  });
+
+  //window events("load", "resize")
+  window.addEventListener("")
